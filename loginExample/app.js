@@ -27,7 +27,7 @@ var User = require("./models/user");
 //mongoose
 var mongoose = require("mongoose");
 mongoose.Promise = global.Promise;
-mongoose.connect("mongodb://172.30.10.55:27017/Test");
+mongoose.connect("mongodb://<Prueba:<Prueba>@ds141450.mlab.com:41450/usaauth");
 
 //configuracion passport
 passport.use(new LocalStrategy(
