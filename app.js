@@ -54,9 +54,9 @@ passport.use(new LocalStrategy(
 passport.use(
   new FacebookStrategy(
     {
-      clientID: '1857260484532632',
-      clientSecret: 'f1a33247fd48b8fec9f74d7ad0a09dac',
-      callbackURL: "http://localhost:3000/users/auth/facebook/callback",
+      clientID: '1912912855606488',
+      clientSecret: '204ec6782414c11736bf15980666c99f',
+      callbackURL: "https://loginusa.herokuapp.com/users/auth/facebook/callback",
       profileFields: ["email","displayName"]
     },
     function(token, refreshToken, profile,done){
